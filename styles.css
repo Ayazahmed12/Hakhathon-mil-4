@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.resume-form {
+    border: 2px solid rgb(9, 158, 196);
+    font-size: medium;
+    font-style: italic;
+    color: blanchedalmond;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+section {
+    border: 2px solid rgb(27, 27, 117);
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* Added px */
+}
+
+legend {
+    margin: 10px 0;
+    font-size: larger;
+}
+
+label {
+    margin: 5px;
+}
+
+input {
+    margin: 5px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: rgb(14, 132, 190);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#generate-resume {
+    width: 320px; /* Added px */
+    background-color: rgb(9, 115, 236);
+    font-size: medium;
+    color: blanchedalmond;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+}
